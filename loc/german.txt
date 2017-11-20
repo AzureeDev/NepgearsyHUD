@@ -1,6 +1,10 @@
 {
 	"NepgearsyHUD_Menu_Title":"Nepgearsy HUD Optionen",
 	"NepgearsyHUD_Menu_Desc":"Ändere die Optionen des HUD",
+	"NepgearsyHUD_HudOptions_Title" : "HUD Options",
+	"NepgearsyHUD_HudOptions_Desc" : "Changes to the HUD itself",
+	"NepgearsyHUD_Menu_Title" : "Menu / Lobby Options",
+	"NepgearsyHUD_Menu_Desc" : "Changes to the menu / lobby",
 	"NepgearsyHUD_LanguageSelection_Title" : "Language",
 	"NepgearsyHUD_LanguageSelection_Desc" : "",
 	"NepgearsyHUD_LanguageSelection_English" : "English",
@@ -81,5 +85,7 @@
 	"NepgearsyHUD_Addons_Desc":"Verwalte die extra Mods, die mit dem HUD verbunden sind.",
 	"NepgearsyHUD_Enable_KWP_Title":"Kill Whore Points",
 	"NepgearsyHUD_Enable_KWP_Desc":"Erlaube das Add-On 'Kill Whore Points'.",
+	"NepgearsyHUD_EnableTeammatePanel_Title" : "Enable Teammate Panel Changes",
+	"NepgearsyHUD_EnableTeammatePanel_Desc" : "Tick to enable the custom teammate panel changes.",
 	"hud_instruct_mask_on":""
 }
