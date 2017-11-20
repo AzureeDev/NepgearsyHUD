@@ -1,0 +1,103 @@
+{
+	"NepgearsyHUD_Menu_Title" : "Opciones de Nepgearsy HUD",
+	"NepgearsyHUD_Menu_Desc" : "Cambia las opciones de la HUD",
+
+	"NepgearsyHUD_LanguageSelection_Title" : "Language",
+	"NepgearsyHUD_LanguageSelection_Desc" : "",
+	"NepgearsyHUD_LanguageSelection_English" : "English",
+	"NepgearsyHUD_LanguageSelection_Spanish" : "Spanish",
+	"NepgearsyHUD_LanguageSelection_German" : "German",
+
+	"NepgearsyHUD_DisableMinimap_Title" : "Desactivar minimapa",
+	"NepgearsyHUD_DisableMinimap_Desc" : "Activa esta opcion para desactivar el minimapa completamente.",
+
+	"NepgearsyHUD_SizeMinimap_Title" : "Tamaño del Minimapa",
+	"NepgearsyHUD_SizeMinimap_Desc" : "Cambia el tamaño del minimapa.",
+	"NepgearsyHUD_SizeMinimap_Normal" : "Normal (175x175)",
+	"NepgearsyHUD_SizeMinimap_Small" : "Pequeño (125x125)",
+	"NepgearsyHUD_SizeMinimap_Big" : "Grande (225x225)",
+
+	"NepgearsyHUD_ZoomMinimap_Title" : "Zoom del Minimapa",
+	"NepgearsyHUD_ZoomMinimap_Desc" : "Cambia el zoom del Minimapa.",
+
+	"NepgearsyHUD_ForceMinimap_Title" : "Forzar el Minimapa",
+	"NepgearsyHUD_ForceMinimap_Desc" : "Activa esta opcion para forzar el minimapa incluso si no hay una textura para el mapa actual.",
+
+	"NepgearsyHUD_EnableXPInHud_Title" : "Mostrar el panel de EXP ganada",
+	"NepgearsyHUD_EnableXPInHud_Desc" : "Activa esta opcion para mostrar la experiencia en el panel de la HUD. Desactivala para ocultarlo.",
+
+	"NepgearsyHUD_Waifu_Picker_Title" : "Hyperdimension Neptunia Waifu Picker",
+	"NepgearsyHUD_Waifu_Picker_Desc" : "",
+
+	"NepgearsyHUD_EnableHorizontalCrewSetup_Title" : "Mostrar equipamiento en Horizontal",
+	"NepgearsyHUD_EnableHorizontalCrewSetup_Desc" : "Activa esta opcion para mostrar el equipamiento del equipo en Horizontal.",
+
+	"NepgearsyHUD_Starring_Text_Title" : "Tu como ... ?",
+	"NepgearsyHUD_Starring_Text_Desc" : "Esto cambiara el 'como dallas' por ejemplo a cualquier texto que desees. ¡Se sincroniza al resto de los usuarios con el mod!",
+
+	"NepgearsyHUD_Starring_Color_Title" : "Starring Color Picker",
+	"NepgearsyHUD_Starring_Color_Desc" : "Elige tu color favorito para la pantalla de 'Tu como ...'. ¡Se sincroniza al resto de los usuarios con el mod!",
+	"NepHUD_Color_white" : "Blanco",
+	"NepHUD_Color_red" : "Rojo",
+	"NepHUD_Color_blue" : "Azul",
+	"NepHUD_Color_green" : "Verde",
+	"NepHUD_Color_yellow" : "Amarillo",
+	"NepHUD_Color_orange" : "Naranja",
+	"NepHUD_Color_cyan" : "Cyan",
+	"NepHUD_Color_fushia" : "Fucsia",
+	"NepHUD_Color_pink" : "Rosa",
+	"NepHUD_Color_blue_ocean" : "Azul Marino",
+	"NepHUD_Color_purple_leo" : "Morado Leon",
+	"NepHUD_Color_red_fushia" : "Rojo-Fucsia",
+
+	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "Selector de Waifu",
+	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "Elige una waifu. Se sincronizara con el resto de usuarios del Mod que tengan este addon.",
+	"NHUD_Waifu_Neptune" : "Neptune",
+	"NHUD_Waifu_Nepgear" : "Nepgear",
+	"NHUD_Waifu_Noire" : "Noire",
+	"NHUD_Waifu_Uni" : "Uni",
+	"NHUD_Waifu_Vert" : "Vert",
+	"NHUD_Waifu_Blanc" : "Blanc",
+	"NHUD_Waifu_Rom" : "Rom",
+	"NHUD_Waifu_Ram" : "Ram",
+	"NHUD_Waifu_Histy" : "Histy",
+	"NHUD_Waifu_Leon" : "Leon Girl",
+
+	"NepgearsyHUD_CompactAssaultStateMode_Title" : "Estado del Asalto",
+	"NepgearsyHUD_CompactAssaultStateMode_Desc" : "El Modo Normal mostrara el estado del asalto sin contadores. La version MysteryDash mostrara el tiempo de cada asalto.",
+	"NepgearsyHUD_CompactAssaultStateMode_Normal" : "Modo Normal",
+	"NepgearsyHUD_CompactAssaultStateMode_MysteryDash" : "Version MysteryDash",
+    
+    "NepgearsyHUD_EnableChatMessages_Title" : "Activar mensajes del Chat",
+	"NepgearsyHUD_EnableChatMessages_Desc" : "Activa los mensajes del Chat para los eventos relacionados a los asaltos. Requiere el Estado de Asalto Compacto en la version de MysteryDash.",
+
+	"NepgearsyHUD_AssaultBar_FirstAssault" : "PREPARATE PARA EL PRIMER ASALTO",
+	"NepgearsyHUD_AssaultBar_FirstAssault_State" : "YA VIENEN",
+	"NepgearsyHUD_AssaultBar_Control_State" : "ESTADO - CONTROL",
+	"NepgearsyHUD_AssaultBar_Anticipation_State" : "ESTADO - ANTICIPACION",
+	"NepgearsyHUD_AssaultBar_Build_State" : "ESTADO - CONSTRUCCION",
+	"NepgearsyHUD_AssaultBar_Sustain_State" : "ESTADO - MANTENER",
+	"NepgearsyHUD_AssaultBar_Fade_State" : "ESTADO - DESAPARECER",
+	"NepgearsyHUD_AssaultBar_Endless_State" : "ASALTO INFINITO",
+	"NepgearsyHUD_AssaultBar_Endless" : "ASALTO INFINITO EN PROGRESO",
+	"NepgearsyHUD_AssaultBar_Survived" : "ASALTO SOBREVIVIDO",
+
+	"NepgearsyHUD_AssaultBar_WintersLocked" : "EL CAPTAN WINTERS BLOQUEO EL ASALTO",
+	"NepgearsyHUD_AssaultBar_WintersLocked_State" : "DERROTAR A CAPITAN PARA TERMINAR ASALTO",
+	"NepgearsyHUD_AssaultBar_WintersDefeated_State" : "¡EL DESAPARECIO! EL ASALTO TERMINARA PRONTO",
+
+	"NepgearsyHUD_AssaultBar_CivilianMode" : "MODO CIVIL",
+	"NepgearsyHUD_AssaultBar_CivilianMode_Mod" : "ENCUENTRA TU EQUIPO",
+	"NepgearsyHUD_AssaultBar_CasingMode" : "MODO OBSERVADOR",
+	"NepgearsyHUD_AssaultBar_CasingMode_Mod" : "COLOCATE LA MASCARA",
+
+	"NepgearsyHUD_AssaultBarThickness_Title" : "Altura de la barra de Asalto",
+	"NepgearsyHUD_AssaultBarThickness_Desc" : "Cambia la Altura de la barra de asalto.",
+
+	"NepgearsyHUD_Addons_Title" : "Addons",
+	"NepgearsyHUD_Addons_Desc" : "Administra los mods adicionales que se vinculan a la HUD.",
+	"NepgearsyHUD_Enable_KWP_Title" : "Kill Whore Points",
+	"NepgearsyHUD_Enable_KWP_Desc" : "Activa el addon 'Kill Whore Points'.",
+
+	"hud_instruct_mask_on" : ""
+}

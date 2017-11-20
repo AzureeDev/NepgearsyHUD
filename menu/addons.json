@@ -1,0 +1,17 @@
+{
+	"menu_id" : "NepgearsyHUD_Addons",
+	"parent_menu_id" : "NepgearsyHUD",
+	"title"	: "NepgearsyHUD_Addons_Title",
+	"description" : "NepgearsyHUD_Addons_Desc",
+	"items" : [
+		{
+		    "type" : "toggle",
+		    "id" : "NepgearsyHUD_Enable_KWP",
+		    "title" : "NepgearsyHUD_Enable_KWP_Title",
+		    "description" : "NepgearsyHUD_Enable_KWP_Desc",
+		    "callback" : "NepgearsyHUD_Enable_KWP_Callback",
+		    "value" : "NepgearsyHUD_Enable_KWP_Value",
+		    "default_value" : false
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"menu_id" : "NepgearsyHUD_Waifu_Picker",
+	"parent_menu_id" : "NepgearsyHUD",
+	"title"	: "NepgearsyHUD_Waifu_Picker_Title",
+	"description" : "NepgearsyHUD_Waifu_Picker_Desc",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "NepgearsyHUD_Waifu_Picker_Choice",
+			"title" : "NepgearsyHUD_Waifu_Picker_Choice_Title",
+			"description" : "NepgearsyHUD_Waifu_Picker_Choice_Desc",
+			"callback" : "NepgearsyHUD_Waifu_Picker_Choice_Callback",
+			"items" : [
+				"NHUD_Waifu_Neptune",
+				"NHUD_Waifu_Nepgear",
+				"NHUD_Waifu_Noire",
+				"NHUD_Waifu_Uni",
+				"NHUD_Waifu_Vert",
+				"NHUD_Waifu_Blanc",
+				"NHUD_Waifu_Rom",
+				"NHUD_Waifu_Ram",
+				"NHUD_Waifu_Histy",
+				"NHUD_Waifu_Leon"
+			],
+			"value" : "NepgearsyHUD_Waifu_Picker_Choice_Value",
+			"default_value" : 1
+		}
+	]
+}
