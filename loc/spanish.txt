@@ -52,6 +52,7 @@
 
 	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "Selector de Waifu",
 	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "Elige una waifu. Se sincronizara con el resto de usuarios del Mod que tengan este addon.",
+	"NHUD_Waifu_None" : "None (Disabled)",
 	"NHUD_Waifu_Neptune" : "Neptune",
 	"NHUD_Waifu_Nepgear" : "Nepgear",
 	"NHUD_Waifu_Noire" : "Noire",

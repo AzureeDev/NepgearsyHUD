@@ -3,12 +3,13 @@
     "description" : "Muh custom hud.",
     "author" : "Nepsy",
     "contact" : "id/Nepgearsy",
-    "version" : "2.3.2",
+    "version" : "3.0.0",
     "blt_version" : 2,
     "image" : "nephud.png",
     "color" : "87 0 173",
     "updates" : [ { "identifier" : "NepHud" } ],
     "hooks":[  
+        {  "hook_id":"lib/managers/menumanager", "script_path":"Core.lua"  },
         {  "hook_id":"lib/managers/menumanager", "script_path":"lua/options.lua"  },
         {  "hook_id":"lib/managers/hudmanagerpd2", "script_path":"lua/hudmanager.lua"  },
         {  "hook_id":"lib/managers/hudmanagerpd2", "script_path":"lua/hudkwp.lua"  },
@@ -22,6 +23,7 @@
         {  "hook_id":"lib/managers/hud/hudteammate", "script_path":"lua/hudteammate.lua"  },
         {  "hook_id":"lib/managers/hud/hudmissionbriefing", "script_path":"lua/hudmissionbriefing.lua"  },
         {  "hook_id":"lib/managers/hud/hudblackscreen", "script_path":"lua/hudblackscreen.lua"  },
+        {  "hook_id":"lib/managers/hud/hudplayerdowned", "script_path":"lua/hudplayerdowned.lua"  },
 
         {  "hook_id": "lib/managers/hudmanagerpd2", "script_path":"lua/hudminimap.lua"  },
         {  "hook_id": "lib/managers/criminalsmanager", "script_path": "lua/hudminimap.lua" },
@@ -33,8 +35,5 @@
         {  "hook_id":"lib/managers/group_ai_states/groupaistatebesiege", "script_path":"lua/groupaibesiege.lua"  },
 
         {  "hook_id":"lib/managers/statisticsmanager", "script_path":"lua/statisticsmanager.lua"  }
-    ],
-    "persist_scripts" : [
-        {  "global" : "AGlobalValueToStopTheMess", "script_path" : "lua/experiencemanager.lua"  }
     ]
 }

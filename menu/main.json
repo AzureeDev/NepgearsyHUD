@@ -1,0 +1,26 @@
+{
+	"menu_id" : "NepgearsyHUD",
+	"parent_menu_id" : "blt_options",
+	"title"	: "NepgearsyHUD_Title",
+	"description" : "NepgearsyHUD_Desc",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "NepgearsyHUD_LanguageSelection",
+			"title" : "NepgearsyHUD_LanguageSelection_Title",
+			"description" : "NepgearsyHUD_LanguageSelection_Desc",
+			"callback" : "NepgearsyHUD_LanguageSelection_Callback",
+			"items" : [
+				"NepgearsyHUD_LanguageSelection_English",
+				"NepgearsyHUD_LanguageSelection_Spanish",
+				"NepgearsyHUD_LanguageSelection_German"
+			],
+			"value" : "NepgearsyHUD_LanguageSelection_Value",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 20
+		}
+	]
+}

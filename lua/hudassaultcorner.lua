@@ -36,7 +36,7 @@ function HUDAssaultCorner:init(hud, full_hud, tweak_hud)
 	})
 	self._bg_box_text = self._bg_box:text({
 		name = "_bg_box_text",
-		text = "CASING MODE",
+		text = "...",
 		valign = "center",
 		align = "center",
 		vertical = "center",
@@ -489,154 +489,8 @@ function HUDAssaultCorner:init(hud, full_hud, tweak_hud)
 		h = 38
 	})
 	vip_icon:set_center(self._vip_bg_box:w() / 2, self._vip_bg_box:h() / 2)
-
-	if SystemFS:exists("mods/Money In Hud/mod.txt") then
-		self._money_panel_color = Color(255, 5, 165, 0) / 255
-	    self.money_panel = self._prev_hud:panel({
-			visible = false,
-			name = "money_panel",
-			w = 400,
-			h = 100,
-			color = self._money_panel_color
-		})
-		self.total_money_panel = self._prev_hud:panel({
-			visible = true,
-			name = "total_money_panel",
-			w = 400,
-			h = 100,
-			color = self._money_panel_color
-		})
-	    self._money_panel_box = HUDBGBox_create(self.money_panel, {
-			w = 242,
-			h = 38,
-			x = 0,
-			y = 0
-		}, {
-			visible = true,
-			blend_mode = "add"
-		})
-		self.money_count = self._money_panel_box:text({
-			name = "money_count",
-			text = "",
-			valign = "center",
-			align = "left",
-			vertical = "center",
-			w = self._money_panel_box:w(),
-			h = self._money_panel_box:h(),
-			layer = 1,
-			x = 10,
-			y = 0,
-			color = Color.white,
-			font = tweak_data.hud_corner.assault_font,
-			font_size = tweak_data.hud_corner.numhostages_size
-		})
-		self.total_money_count = self.total_money_panel:text({
-			name = "total_money_count",
-			text = "",
-			valign = "center",
-			align = "left",
-			vertical = "center",
-			w = self._money_panel_box:w(),
-			h = self._money_panel_box:h(),
-			layer = 1,
-			x = 10,
-			y = 0,
-			color = Color.white,
-			font = tweak_data.hud_corner.assault_font,
-			font_size = 12
-		})
-	    self.money_panel:set_top(self._hostages_bg_box:bottom() + 60)
-	    self.money_panel:set_left(self._hostages_bg_box:left() + 21)
-	    self.total_money_panel:set_top(self.money_panel:bottom() - 64)
-	    self.total_money_panel:set_left(self.money_panel:left() - 8)
-
-	    if CustomAchievementAPI then
-	    	self.achievement_unlocked_panel = self._prev_hud:panel({
-				visible = false,
-				name = "achievement_unlocked_panel",
-				w = 350,
-				h = 95,
-				color = Color(0,1,1,1)
-			})
-
-			self.achievement_unlocked_box = HUDBGBox_create(self.achievement_unlocked_panel, {
-				w = 350,
-				h = 95,
-				x = 0,
-				y = 0
-			}, {
-				blend_mode = "add"
-			})
-
-			self.achievement_unlocked_image = self.achievement_unlocked_panel:bitmap({
-				name = "achievement_unlocked_image",
-				texture = "guis/textures/mods/CustomAchievement/default",
-				texture_rect = {
-					0,
-					0,
-					512,
-					256
-				},
-				layer = 40,
-				w = 128,
-				h = 64,
-				x = 5,
-				y = 5
-			})
-
-			self.trophy_rank_image = self.achievement_unlocked_panel:bitmap({
-				name = "trophy_rank_image",
-				texture = "guis/textures/mods/CustomAchievement/trophy_icon_bronze",
-				texture_rect = {
-					0,
-					0,
-					256,
-					256
-				},
-				
-				layer = 40,
-				w = 24,
-				h = 24,
-				x = 5,
-				y = 8
-			})
-
-			self.achievement_unlocked_text = self.achievement_unlocked_box:text({
-				name = "achievement_unlocked_text",
-				text = "Achievement Unlocked!",
-				align = "left",
-				w = self.achievement_unlocked_box:w(),
-				h = self.achievement_unlocked_box:h(),
-				layer = 1,
-				x = 5,
-				y = 8,
-				color = Color.white,
-				font = tweak_data.hud_corner.assault_font,
-				font_size = 18
-			})
-
-			self.achievement_unlocked_desc = self.achievement_unlocked_box:text({
-				name = "achievement_unlocked_desc",
-				text = "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
-				align = "left",
-				w = self.achievement_unlocked_box:w(),
-				h = self.achievement_unlocked_box:h(),
-				layer = 1,
-				x = 5,
-				y = 8,
-				color = Color.white,
-				font = tweak_data.hud_corner.assault_font,
-				font_size = 14
-			})
-
-			self.achievement_unlocked_text:set_left(self.achievement_unlocked_image:right() + 5)
-			self.achievement_unlocked_panel:set_top(self._hostages_bg_box:bottom() + 200)
-		    self.achievement_unlocked_panel:set_left(self._hostages_bg_box:left())
-	    end
-    end
-
+    
     local is_host = Network:is_server()
-
     self.current_heist_state = self._prev_hud:text({
 		name = "current_heist_state",
 		text = "GO LOUD TO DISPLAY THE ASSAULT STATE",
@@ -849,6 +703,7 @@ function HUDAssaultCorner:sync_set_assault_mode(mode)
 		color = self._assault_color
 		self:_update_text_spot(managers.localization:to_upper_text("hud_assault_assault"))
 		self:_update_state_spot(managers.localization:text("NepgearsyHUD_AssaultBar_WintersDefeated_State"))
+		self:_update_mod_spot("")
 	end
 	self:_update_assault_hud_color(color)
 	self:_set_text_list(self:_get_assault_strings())

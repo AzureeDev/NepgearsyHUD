@@ -1,6 +1,10 @@
 {
-	"NepgearsyHUD_Menu_Title" : "Nepgearsy HUD Options",
-	"NepgearsyHUD_Menu_Desc" : "Change the options of the HUD",
+	"NepgearsyHUD_Title" : "Nepgearsy HUD Options",
+	"NepgearsyHUD_Desc" : "Change the options of the HUD",
+	"NepgearsyHUD_HudOptions_Title" : "HUD Options",
+	"NepgearsyHUD_HudOptions_Desc" : "Changes to the HUD itself",
+	"NepgearsyHUD_Menu_Title" : "Menu / Lobby Options",
+	"NepgearsyHUD_Menu_Desc" : "Changes to the menu / lobby",
 
 	"NepgearsyHUD_LanguageSelection_Title" : "Language",
 	"NepgearsyHUD_LanguageSelection_Desc" : "",
@@ -52,6 +56,7 @@
 
 	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "Waifu Picker",
 	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "Pick a waifu. It will sync to other users of the HUD who has this addon too.",
+	"NHUD_Waifu_None" : "None (Disabled)",
 	"NHUD_Waifu_Neptune" : "Neptune",
 	"NHUD_Waifu_Nepgear" : "Nepgear",
 	"NHUD_Waifu_Noire" : "Noire",
@@ -98,6 +103,9 @@
 	"NepgearsyHUD_Addons_Desc" : "Manage the extra mods tied to the HUD.",
 	"NepgearsyHUD_Enable_KWP_Title" : "Kill Whore Points",
 	"NepgearsyHUD_Enable_KWP_Desc" : "Enable the addon 'Kill Whore Points'.",
+
+	"NepgearsyHUD_EnableTeammatePanel_Title" : "Enable Teammate Panel Changes",
+	"NepgearsyHUD_EnableTeammatePanel_Desc" : "Tick to enable the custom teammate panel changes.",
 
 	"hud_instruct_mask_on" : ""
 }

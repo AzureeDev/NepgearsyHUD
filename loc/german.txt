@@ -41,6 +41,7 @@
 	"NepHUD_Color_red_fushia":"Red-Fushia",
 	"NepgearsyHUD_Waifu_Picker_Choice_Title":"Waifu Auswahl",
 	"NepgearsyHUD_Waifu_Picker_Choice_Desc":"Such dir deine Waifu aus. Es wird sich mit anderen Usern synchronisieren, die auch dieses Add-On besitzen.",
+	"NHUD_Waifu_None" : "None (Disabled)",
 	"NHUD_Waifu_Neptune":"Neptune",
 	"NHUD_Waifu_Nepgear":"Nepgear",
 	"NHUD_Waifu_Noire":"Noire",

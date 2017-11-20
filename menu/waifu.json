@@ -1,6 +1,6 @@
 {
 	"menu_id" : "NepgearsyHUD_Waifu_Picker",
-	"parent_menu_id" : "NepgearsyHUD",
+	"parent_menu_id" : "NepgearsyHUD_Addons",
 	"title"	: "NepgearsyHUD_Waifu_Picker_Title",
 	"description" : "NepgearsyHUD_Waifu_Picker_Desc",
 	"items" : [
@@ -11,6 +11,7 @@
 			"description" : "NepgearsyHUD_Waifu_Picker_Choice_Desc",
 			"callback" : "NepgearsyHUD_Waifu_Picker_Choice_Callback",
 			"items" : [
+				"NHUD_Waifu_None",
 				"NHUD_Waifu_Neptune",
 				"NHUD_Waifu_Nepgear",
 				"NHUD_Waifu_Noire",
