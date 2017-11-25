@@ -11,7 +11,6 @@
     "hooks":[  
         {  "hook_id":"lib/managers/menumanager", "script_path":"Core.lua"  },
         {  "hook_id":"lib/managers/menumanager", "script_path":"lua/options.lua"  },
-        {  "hook_id":"lib/managers/hudmanagerpd2", "script_path":"lua/hudmanager.lua"  },
         {  "hook_id":"lib/managers/hudmanagerpd2", "script_path":"lua/hudkwp.lua"  },
         {  "hook_id":"lib/managers/statisticsmanager", "script_path":"lua/hudkwp.lua"  },
 
