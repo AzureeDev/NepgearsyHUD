@@ -1,0 +1,111 @@
+{
+	"NepgearsyHUD_Title" : "Nepgearsy HUD设置,
+	"NepgearsyHUD_Desc" : "更改此HUD的所有选项",
+	"NepgearsyHUD_HudOptions_Title" : "HUD选项",
+	"NepgearsyHUD_HudOptions_Desc" : "对HUD进行一些更改",
+	"NepgearsyHUD_Menu_Title" : "界面 / 大厅设置",
+	"NepgearsyHUD_Menu_Desc" : "对界面 / 大厅部分进行自定义",
+
+	"NepgearsyHUD_LanguageSelection_Title" : "语言设置",
+	"NepgearsyHUD_LanguageSelection_Desc" : "",
+	"NepgearsyHUD_LanguageSelection_English" : "英文(English)",
+	"NepgearsyHUD_LanguageSelection_Spanish" : "西班牙文(Spanish)",
+	"NepgearsyHUD_LanguageSelection_German" : "德文(German)",
+
+	"NepgearsyHUD_DisableMinimap_Title" : "禁用小地图",
+	"NepgearsyHUD_DisableMinimap_Desc" : "将此选项打钩以彻底禁用小地图",
+
+	"NepgearsyHUD_SizeMinimap_Title" : "小地图尺寸",
+	"NepgearsyHUD_SizeMinimap_Desc" : "更改小地图的大小。",
+	"NepgearsyHUD_SizeMinimap_Normal" : "中 (175x175)",
+	"NepgearsyHUD_SizeMinimap_Small" : "小 (125x125)",
+	"NepgearsyHUD_SizeMinimap_Big" : "大 (225x225)",
+
+	"NepgearsyHUD_ZoomMinimap_Title" : "小地图缩放倍率",
+	"NepgearsyHUD_ZoomMinimap_Desc" : "调整HUD上小地图的缩放倍率",
+	
+	"NepgearsyHUD_ForceMinimap_Title" : "强制启用小地图",
+	"NepgearsyHUD_ForceMinimap_Desc" : "打钩以强制使用小地图,即使那个合约没有对应的REPLANNING图。",
+
+	"NepgearsyHUD_EnableXPInHud_Title" : "显示'已获取的EXP点数'面板",
+	"NepgearsyHUD_EnableXPInHud_Desc" : "打钩以将其显示在hud面板,取消打钩以隐藏。",
+
+	"NepgearsyHUD_Waifu_Picker_Title" : "超次元海王星(老婆)配置选择",
+	"NepgearsyHUD_Waifu_Picker_Desc" : "选择一个人物以便同步一些其他用户搞好的设置",
+
+	"NepgearsyHUD_EnableHorizontalCrewSetup_Title" : "启用水平'CREW SETUP'面板",
+	"NepgearsyHUD_EnableHorizontalCrewSetup_Desc" : "打钩将'CREW SETUP'面板水平方向显示",
+
+	"NepgearsyHUD_Starring_Text_Title" : "*你作为 ... ?",
+	"NepgearsyHUD_Starring_Text_Desc" : "这个选项会影响'主演界面'的显示,会与其他mod用户同步!",
+
+	"NepgearsyHUD_Starring_Color_Title" : "'主演们'界面设置",
+	"NepgearsyHUD_Starring_Color_Desc" : "选择你在那个界面里的颜色.会与其他mod用户同步!",
+	"NepHUD_Color_white" : "白色",
+	"NepHUD_Color_red" : "红色",
+	"NepHUD_Color_blue" : "蓝色",
+	"NepHUD_Color_green" : "绿色",
+	"NepHUD_Color_yellow" : "黄色",
+	"NepHUD_Color_orange" : "橙色",
+	"NepHUD_Color_cyan" : "青色",
+	"NepHUD_Color_fushia" : "Fushia",
+	"NepHUD_Color_pink" : "粉色",
+	"NepHUD_Color_blue_ocean" : "海蓝色",
+	"NepHUD_Color_purple_leo" : "紫色",
+	"NepHUD_Color_red_fushia" : "Red-Fushia",
+
+	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "老婆?选择器",
+	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "选择一个你喜欢的角色,不过这会与其他选择此角色的mod用户同步设置.",
+	"NHUD_Waifu_None" : "无 (禁用)",
+	"NHUD_Waifu_Neptune" : "涅普顿",
+	"NHUD_Waifu_Nepgear" : "涅普姬雅",
+	"NHUD_Waifu_Noire" : "诺瓦露",
+	"NHUD_Waifu_Uni" : "尤妮",
+	"NHUD_Waifu_Vert" : "贝露",
+	"NHUD_Waifu_Blanc" : "布兰",
+	"NHUD_Waifu_Rom" : "罗姆",
+	"NHUD_Waifu_Ram" : "拉姆",
+	"NHUD_Waifu_Histy" : "伊斯特瓦尔",
+	"NHUD_Waifu_Leon" : "Leon Girl",
+
+	"NepgearsyHUD_CompactAssaultStateMode_Title" : "突击状态显示",
+	"NepgearsyHUD_CompactAssaultStateMode_Desc" : "普通模式下不会显示突击剩余时长. MysteryDash版本下会显示每个阶段的剩余时间.",
+	"NepgearsyHUD_CompactAssaultStateMode_Normal" : "普通模式",
+	"NepgearsyHUD_CompactAssaultStateMode_MysteryDash" : "MysteryDash版",
+    
+    "NepgearsyHUD_EnableChatMessages_Title" : "启用文字聊天小时",
+	"NepgearsyHUD_EnableChatMessages_Desc" : "启用将会在文字聊天区域生成任何有关突击的信息。需要启用MysteryDash的突击状态显示",
+
+	"NepgearsyHUD_AssaultBar_FirstAssault" : "准备好迎接第一波突击",
+	"NepgearsyHUD_AssaultBar_FirstAssault_State" : "第一波突击",
+	"NepgearsyHUD_AssaultBar_Control_State" : "控制阶段",
+	"NepgearsyHUD_AssaultBar_Anticipation_State" : "规划阶段",
+	"NepgearsyHUD_AssaultBar_Build_State" : "增加阶段",
+	"NepgearsyHUD_AssaultBar_Sustain_State" : "持续突击阶段",
+	"NepgearsyHUD_AssaultBar_Fade_State" : "减少阶段",
+	"NepgearsyHUD_AssaultBar_Endless_State" : "无尽突击阶段",
+	"NepgearsyHUD_AssaultBar_Endless" : "警方正尝试阻止你逃离!",
+	"NepgearsyHUD_AssaultBar_Survived" : "已撑过一波警方突击",
+
+	"NepgearsyHUD_AssaultBar_WintersLocked" : "'冬日队长'已锁定当前突击",
+	"NepgearsyHUD_AssaultBar_WintersLocked_State" : "击败队长以结束本波突击",
+	"NepgearsyHUD_AssaultBar_WintersDefeated_State" : "队长死了!这波突击很快就会结束了!",
+
+	"NepgearsyHUD_AssaultBar_CivilianMode" : "平民模式",
+	"NepgearsyHUD_AssaultBar_CivilianMode_Mod" : "去找你的装备吧",
+	"NepgearsyHUD_AssaultBar_CasingMode" : "踩点模式",
+	"NepgearsyHUD_AssaultBar_CasingMode_Mod" : "戴上你的面具以开始",
+
+	"NepgearsyHUD_AssaultBarThickness_Title" : "突击状态栏厚度",
+	"NepgearsyHUD_AssaultBarThickness_Desc" : "调节状态栏的高度",
+
+	"NepgearsyHUD_Addons_Title" : "插件",
+	"NepgearsyHUD_Addons_Desc" : "管理与该mod有关的插件.",
+	"NepgearsyHUD_Enable_KWP_Title" : "Kill Whore Points",
+	"NepgearsyHUD_Enable_KWP_Desc" : "Enable the addon 'Kill Whore Points'.",
+
+	"NepgearsyHUD_EnableTeammatePanel_Title" : "应用队友面板改动",
+	"NepgearsyHUD_EnableTeammatePanel_Desc" : "打钩以使用该mod对队友面板的改动.",
+
+	"hud_instruct_mask_on" : ""
+}
