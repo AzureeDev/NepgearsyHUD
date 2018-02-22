@@ -1,5 +1,5 @@
 {
-	"NepgearsyHUD_Title" : "Nepgearsy HUD设置,
+	"NepgearsyHUD_Title" : "Nepgearsy HUD设置",
 	"NepgearsyHUD_Desc" : "更改此HUD的所有选项",
 	"NepgearsyHUD_HudOptions_Title" : "HUD选项",
 	"NepgearsyHUD_HudOptions_Desc" : "对HUD进行一些更改",
