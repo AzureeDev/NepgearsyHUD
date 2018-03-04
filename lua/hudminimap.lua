@@ -753,7 +753,23 @@ if RequiredScript == "lib/managers/hudmanagerpd2" then
         civies = {
             class = "HUDMiniMapCiviesEntity",
             ignore_duration = true,
-        }
+        },
+        teammate = {
+			class = "HUDMiniMapVIPEntity",
+			ignore_duration = true,
+		},	
+        taxman = {
+			class = "HUDMiniMapInterestEntity",
+			ignore_duration = true,
+		},	
+		drunk_pilot = {
+			class = "HUDMiniMapInterestEntity",
+			ignore_duration = true,
+		},		
+		highlight_character = {
+			class = "HUDMiniMapInterestEntity",
+			ignore_duration = true,
+        }    
     }
     
     function HUDMiniMap:init(parent)
@@ -1665,7 +1681,45 @@ if RequiredScript == "lib/managers/hudmanagerpd2" then
         end
     end
     
-    
+    	HUDMiniMapVIPEntity = HUDMiniMapVIPEntity or class(HUDMiniMapJokerEntity)
+
+	function HUDMiniMapVIPEntity:init(parent, key, unit)
+		HUDMiniMapVIPEntity.super.init(self, parent, key, unit)
+		
+		self._avatar:set_color(Color(1, 1, 0))	--tweak_data.contour.character.friendly_color
+		self._elevation_indicator:set_color(Color(1, 1, 0))
+		self._show_offscreen = true
+	end
+	
+	function HUDMiniMapVIPEntity:update(...)
+		HUDMiniMapVIPEntity.super.update(self, ...)
+		
+		if not self._deleted then
+			if self._unit:character_damage() and self._unit:character_damage():dead() then
+				self:_delete()
+			end
+		end
+	end
+	
+	HUDMiniMapInterestEntity = HUDMiniMapInterestEntity or class(HUDMiniMapJokerEntity)
+
+	function HUDMiniMapInterestEntity:init(parent, key, unit)
+		HUDMiniMapInterestEntity.super.init(self, parent, key, unit)
+		
+		self._avatar:set_color(Color(1, 0, 1))	--tweak_data.contour.character.friendly_color
+		self._elevation_indicator:set_color(Color(1, 0, 1))
+		self._show_offscreen = true
+	end
+	
+	function HUDMiniMapInterestEntity:update(...)
+		HUDMiniMapInterestEntity.super.update(self, ...)
+		
+		if not self._deleted then
+			if self._unit:character_damage() and self._unit:character_damage():dead() then
+				self:_delete()
+			end
+		end
+	end
     
     
     
