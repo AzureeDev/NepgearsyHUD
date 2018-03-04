@@ -16,7 +16,7 @@ function HUDHeistTimer:init(hud, tweak_hud)
 		name = "timer_text",
 		text = "00:00",
 		font_size = 24,
-		font = tweak_data.hud.medium_font_noshadow,
+		font = "fonts/font_large_mf",
 		color = Color.white,
 		align = "center",
 		vertical = "center",
