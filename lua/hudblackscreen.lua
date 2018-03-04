@@ -1,4 +1,14 @@
 Hooks:PostHook( HUDBlackScreen, "init", "nephud_function_custom_bs", function(self, hud)
+
+	local function make_fine_text(text)
+		local x, y, w, h = text:text_rect()
+
+		text:set_size(w, h)
+		text:set_position(math.round(text:x()), math.round(text:y()))
+
+		return x, y, w, h
+	end
+
 	local Net = _G.LuaNetworking
 	local stage_data = managers.job:current_stage_data()
 	local level_data = managers.job:current_level_data()
@@ -27,6 +37,24 @@ Hooks:PostHook( HUDBlackScreen, "init", "nephud_function_custom_bs", function(se
 			y = -200,
 			color = Color.white
 		})
+
+		if Global.game_settings.one_down then
+			local od_text = bs_panel:text({
+				name = "od_text",
+				text = managers.localization:to_upper_text("menu_one_down"),
+				font = tweak_data.menu.pd2_large_font,
+				font_size = 24,
+				vertical = "center",
+				align = "center",
+				valign = {
+					0.4,
+					0
+				},
+				w = bs_panel:w(),
+				color = Color.red
+			})
+			od_text:set_y(heist_panel_text:y() + 35)
+		end
 	end
 
 	local starring_with = starring_panel:text({

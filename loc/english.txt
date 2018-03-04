@@ -11,6 +11,7 @@
 	"NepgearsyHUD_LanguageSelection_English" : "English",
 	"NepgearsyHUD_LanguageSelection_Spanish" : "Spanish",
 	"NepgearsyHUD_LanguageSelection_German" : "German",
+	"NepgearsyHUD_LanguageSelection_Chinese" : "Simplified Chinese",
 
 	"NepgearsyHUD_DisableMinimap_Title" : "Disable the minimap",
 	"NepgearsyHUD_DisableMinimap_Desc" : "Tick to disable the minimap completely.",
@@ -57,6 +58,7 @@
 	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "Waifu Picker",
 	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "Pick a waifu. It will sync to other users of the HUD who has this addon too.",
 	"NHUD_Waifu_None" : "None (Disabled)",
+	"NHUD_Waifu_Yourself" : "You (Steam Avatar)",
 	"NHUD_Waifu_Neptune" : "Neptune",
 	"NHUD_Waifu_Nepgear" : "Nepgear",
 	"NHUD_Waifu_Noire" : "Noire",

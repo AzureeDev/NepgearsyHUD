@@ -12,6 +12,7 @@
 			"callback" : "NepgearsyHUD_Waifu_Picker_Choice_Callback",
 			"items" : [
 				"NHUD_Waifu_None",
+				"NHUD_Waifu_Yourself",				
 				"NHUD_Waifu_Neptune",
 				"NHUD_Waifu_Nepgear",
 				"NHUD_Waifu_Noire",

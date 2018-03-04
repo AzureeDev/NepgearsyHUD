@@ -13,7 +13,8 @@
 			"items" : [
 				"NepgearsyHUD_LanguageSelection_English",
 				"NepgearsyHUD_LanguageSelection_Spanish",
-				"NepgearsyHUD_LanguageSelection_German"
+				"NepgearsyHUD_LanguageSelection_German",
+				"NepgearsyHUD_LanguageSelection_Chinese"
 			],
 			"value" : "NepgearsyHUD_LanguageSelection_Value",
 			"default_value" : 1

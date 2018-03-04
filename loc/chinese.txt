@@ -11,6 +11,7 @@
 	"NepgearsyHUD_LanguageSelection_English" : "英文(English)",
 	"NepgearsyHUD_LanguageSelection_Spanish" : "西班牙文(Spanish)",
 	"NepgearsyHUD_LanguageSelection_German" : "德文(German)",
+	"NepgearsyHUD_LanguageSelection_Chinese" : "Simplified Chinese",
 
 	"NepgearsyHUD_DisableMinimap_Title" : "禁用小地图",
 	"NepgearsyHUD_DisableMinimap_Desc" : "将此选项打钩以彻底禁用小地图",
@@ -57,6 +58,7 @@
 	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "老婆?选择器",
 	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "选择一个你喜欢的角色,不过这会与其他选择此角色的mod用户同步设置.",
 	"NHUD_Waifu_None" : "无 (禁用)",
+	"NHUD_Waifu_Yourself" : "You (Steam Avatar)",
 	"NHUD_Waifu_Neptune" : "涅普顿",
 	"NHUD_Waifu_Nepgear" : "涅普姬雅",
 	"NHUD_Waifu_Noire" : "诺瓦露",

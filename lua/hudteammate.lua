@@ -5,29 +5,31 @@ Hooks:PostHook( HUDTeammate, "init", "nephud_function_tm", function(self, i, tea
 	local texture = {}
 	texture.characters = {}
 	
+	texture.characters[1] = "neptune"
 	texture.characters[2] = "neptune"
-	texture.characters[3] = "nepgear"
-	texture.characters[4] = "noire"
-	texture.characters[5] = "uni"
-	texture.characters[6] = "vert"
-	texture.characters[7] = "blanc"
-	texture.characters[8] = "rom"
-	texture.characters[9] = "ram"
-	texture.characters[10] = "histy"
-	texture.characters[11] = "leon"
+	texture.characters[3] = "neptune"
+	texture.characters[4] = "nepgear"
+	texture.characters[5] = "noire"
+	texture.characters[6] = "uni"
+	texture.characters[7] = "vert"
+	texture.characters[8] = "blanc"
+	texture.characters[9] = "rom"
+	texture.characters[10] = "ram"
+	texture.characters[11] = "histy"
+	texture.characters[12] = "leon"
 
 	local data_waifu_picked = NepgearsyHUD.Data["NepgearsyHUD_Waifu_Picker_Choice_Value"] or 1
 
-	if data_waifu_picked and data_waifu_picked ~= 1 then
+	if data_waifu_picked and data_waifu_picked > 1  then
 
 		local teammate_panel = self._panel:child("player")
 		local radial_health_panel = teammate_panel:child("radial_health_panel")
 
-		self.waifu_panel = teammate_panel:panel({
+		self.waifu_panel = hud.panel:panel({
 			name = "waifu_panel",
 			visible = false,
-			w = 87,
-			h = 74,
+			w = 90,
+			h = 90,
 			x = 0,
 			y = 0,
 		})
@@ -40,80 +42,40 @@ Hooks:PostHook( HUDTeammate, "init", "nephud_function_tm", function(self, i, tea
 			blend_mode = "normal",
 			x = 0,
 			y = 0,
-			w = 82,
-			h = 70
-		})
-
-		if self._main_player then
-			self.waifu_panel:set_visible(false)
-		end
-		
-
-		self.waifu_panel:set_x(radial_health_panel:h() - 60)
-		self.waifu_panel:set_bottom(teammate_panel:h() - 48)
-
-		local nep_face_panel = hud.panel:panel({
-			name = "nep_face_panel",
-			visible = true,
-			w = 107,
-			h = 94,
-			x = 900,
-			y = 588,
-		})
-
-		local nep_face_texture = nep_face_panel:bitmap({
-			visible = true,
-			name = "nep_face_texture",
-			layer = -1,
-			texture = "assets/NepgearsyHUD/waifu_assets/" .. texture.characters[data_waifu_picked],
-			blend_mode = "normal",
-			x = 0,
-			y = 0,
-			w = 102,
+			w = 90,
 			h = 90
 		})
+
+		self.waifu_texture = waifu_texture
+
+		if self._main_player then
+			self.waifu_panel:set_visible(true)
+		end
+		
+		if data_waifu_picked > 2 then
+			self.waifu_panel:set_w(102)
+			self.waifu_panel:set_h(90)
+			waifu_texture:set_w(102)
+			waifu_texture:set_h(90)
+		end
+
+		self.waifu_panel:set_world_x(hud.panel:right() - self.waifu_texture:w() - teammate_panel:w())
+		self.waifu_panel:set_world_y(hud.panel:bottom() - self.waifu_texture:h())
+
+		if data_waifu_picked == 2 then
+			Steam:friend_avatar(2, Steam:userid(), function (texture)
+				local avatar = texture or "guis/textures/pd2/none_icon"
+				self.waifu_texture:set_image(avatar)
+			end)
+			Steam:friend_avatar(2, Steam:userid(), function (texture)
+				local avatar = texture or "guis/textures/pd2/none_icon"
+				self.waifu_texture:set_image(avatar)
+			end)
+
+			-- 2 times to be sure it works.
+		end
 	end
 end)
---[[
-function HUDTeammate:set_state(state)
-	local teammate_panel = self._panel
-	local is_player = true
-	teammate_panel:child("player"):set_alpha(is_player and 1 or 0)
-	local name = teammate_panel:child("name")
-	local name_bg = teammate_panel:child("name_bg")
-	local callsign_bg = teammate_panel:child("callsign_bg")
-	local callsign = teammate_panel:child("callsign")
-	if not self._main_player then
-		if is_player then
-			name:set_x(48 + name:h() + 4)
-			name:set_bottom(teammate_panel:h() - 30)
-		else
-			name:set_x(48 + name:h() + 4)
-			name:set_bottom(teammate_panel:h())
-		end
-		name_bg:set_position(name:x(), name:y() - 1)
-		callsign_bg:set_position(name:x() - name:h(), name:y() + 1)
-		callsign:set_position(name:x() - name:h(), name:y() + 1)
-	end
-end]]
-
---[[
-Hooks:PostHook( HUDTeammate, "init", "nephud_function_hud_ping", function(self, i, teammates_panel, is_player, width)
-	if not is_player then
-		local teammate_panel = teammates_panel:child("" .. i)
-		local hud_ping_text = teammate_panel:text({
-			name = "hud_ping_text",
-			text = "1000 ms",
-			layer = 1,
-			color = Color(1, 0.5, 0.5, 0.5),
-			y = 72,
-			x = -10,
-			align = "right",
-			font_size = tweak_data.hud_players.name_size,
-			font = tweak_data.hud_players.name_font
-		})
-	end
-end)]]
 
 if NepgearsyHUD.Data and NepgearsyHUD.Data["NepgearsyHUD_EnableTeammatePanel_Value"] then
 	Hooks:PostHook( HUDTeammate, "init", "nephud_function_hud_helf_sheeld", function(self, i, teammates_panel, is_player, width)
