@@ -12,6 +12,7 @@
 	"NepgearsyHUD_LanguageSelection_Spanish" : "西班牙文(Spanish)",
 	"NepgearsyHUD_LanguageSelection_German" : "德文(German)",
 	"NepgearsyHUD_LanguageSelection_Chinese" : "简体中文(Simplified Chinese)",
+	"NepgearsyHUD_LanguageSelection_Portuguese" : "Portuguese",
 
 	"NepgearsyHUD_DisableMinimap_Title" : "禁用小地图",
 	"NepgearsyHUD_DisableMinimap_Desc" : "勾选后将完全禁用小地图",

@@ -11,6 +11,8 @@
 	"NepgearsyHUD_LanguageSelection_Spanish" : "Spanish",
 	"NepgearsyHUD_LanguageSelection_German" : "German",
 	"NepgearsyHUD_LanguageSelection_Chinese" : "Simplified Chinese",
+	"NepgearsyHUD_LanguageSelection_Portuguese" : "Portuguese",
+	
 	"NepgearsyHUD_DisableMinimap_Title":"Deaktiviere die Minikarte",
 	"NepgearsyHUD_DisableMinimap_Desc":"Ankreuzen, um die Minikarte komplett zu deaktivieren.",
 	"NepgearsyHUD_SizeMinimap_Title":"Minikartengröße",
