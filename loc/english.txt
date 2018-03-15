@@ -12,6 +12,7 @@
 	"NepgearsyHUD_LanguageSelection_Spanish" : "Spanish",
 	"NepgearsyHUD_LanguageSelection_German" : "German",
 	"NepgearsyHUD_LanguageSelection_Chinese" : "Simplified Chinese",
+	"NepgearsyHUD_LanguageSelection_Portuguese" : "Portuguese",
 
 	"NepgearsyHUD_DisableMinimap_Title" : "Disable the minimap",
 	"NepgearsyHUD_DisableMinimap_Desc" : "Tick to disable the minimap completely.",
