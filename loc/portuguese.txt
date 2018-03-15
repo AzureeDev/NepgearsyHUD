@@ -39,7 +39,7 @@
 	"NepgearsyHUD_EnableHorizontalCrewSetup_Desc" : "Marque para exibir o horizontal crew setup.",
 
 	"NepgearsyHUD_Starring_Text_Title" : "Você como ... ?",
-	"NepgearsyHUD_Starring_Text_Desc" : "Isto irá alterar o 'como Dallas' para seja o que você quiser. Sincromiza com outros usuários do mod!",
+	"NepgearsyHUD_Starring_Text_Desc" : "Isto irá alterar o 'como Dallas' para o que você quiser. Sincromiza com outros usuários do mod!",
 
 	"NepgearsyHUD_Starring_Color_Title" : "Starring Color Picker",
 	"NepgearsyHUD_Starring_Color_Desc" : "Selecione a cor favorita do starring screen.  Sincromiza com outros usuários do mod!",
