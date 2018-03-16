@@ -71,13 +71,13 @@
 	"NHUD_Waifu_Histy" : "Histy",
 	"NHUD_Waifu_Leon" : "Leon Girl",
 
-	"NepgearsyHUD_CompactAssaultStateMode_Title" : "Assault State",
-	"NepgearsyHUD_CompactAssaultStateMode_Desc" : "O Modo normal irá exibir a etapa do assault sem timers.A versão MysteryDash vai exibir os timers em cada etapa.",
+	"NepgearsyHUD_CompactAssaultStateMode_Title" : "Etapa do Assault",
+	"NepgearsyHUD_CompactAssaultStateMode_Desc" : "O Modo normal irá exibir a etapa do assault sem temporizadores. A versão MysteryDash vai exibir os tempos de cada etapa.",
 	"NepgearsyHUD_CompactAssaultStateMode_Normal" : "Modo Normal",
 	"NepgearsyHUD_CompactAssaultStateMode_MysteryDash" : "Versão MysteryDash",
     
     "NepgearsyHUD_EnableChatMessages_Title" : "Ativar mensagens de chat",
-	"NepgearsyHUD_EnableChatMessages_Desc" : "Ativa mensagens no chat para vários eventos relacionados ao assault. Requer o modo Assault State Compact na versão MysteryDash.",
+	"NepgearsyHUD_EnableChatMessages_Desc" : "Ativa mensagens no chat para vários eventos relacionados ao assault. Requer a opção Assault State setado como MysteryDash.",
 
 	"NepgearsyHUD_AssaultBar_FirstAssault" : "PREPARE-SE PARA O PRIMEIRO ASSAULT",
 	"NepgearsyHUD_AssaultBar_FirstAssault_State" : "ELES ESTÃO CHEGANDO",
@@ -108,7 +108,7 @@
 	"NepgearsyHUD_Enable_KWP_Desc" : "Ativa o addon 'Kill Whore Points'.",
 
 	"NepgearsyHUD_EnableTeammatePanel_Title" : "Ativar as mudanças de painel para a equipe",
-	"NepgearsyHUD_EnableTeammatePanel_Desc" : "Marque para ativar as mudanças de painel de equipe customizados.",
+	"NepgearsyHUD_EnableTeammatePanel_Desc" : "Marque para ativar as mudanças de painel customizados da equipe .",
 
 	"hud_instruct_mask_on" : ""
 }
