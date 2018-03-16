@@ -12,6 +12,7 @@ NepgearsyHUD.Localization[1] = ModPath .. "loc/english.txt"
 NepgearsyHUD.Localization[2] = ModPath .. "loc/spanish.txt"
 NepgearsyHUD.Localization[3] = ModPath .. "loc/german.txt"
 NepgearsyHUD.Localization[4] = ModPath .. "loc/chinese.txt"
+NepgearsyHUD.Localization[5] = ModPath .. "loc/portuguese.txt"
 
 function NepgearsyHUD:init()
 	self:_setup_minimap_textures()
