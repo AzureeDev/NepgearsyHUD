@@ -77,7 +77,7 @@
 	"NepgearsyHUD_CompactAssaultStateMode_MysteryDash" : "Versão MysteryDash",
     
     "NepgearsyHUD_EnableChatMessages_Title" : "Ativar mensagens de chat",
-	"NepgearsyHUD_EnableChatMessages_Desc" : "Ativa mensagens no chat para vários eventos relacionados ao assault. Requer a opção Assault State setado como MysteryDash.",
+	"NepgearsyHUD_EnableChatMessages_Desc" : "Ativa mensagens no chat para vários eventos relacionados ao assault. Requer a opção Etapa do Assault setado como MysteryDash.",
 
 	"NepgearsyHUD_AssaultBar_FirstAssault" : "PREPARE-SE PARA O PRIMEIRO ASSAULT",
 	"NepgearsyHUD_AssaultBar_FirstAssault_State" : "ELES ESTÃO CHEGANDO",
