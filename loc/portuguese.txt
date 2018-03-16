@@ -90,7 +90,7 @@
 	"NepgearsyHUD_AssaultBar_Endless" : "ASSAULT INFINITO EM PROGRESSO",
 	"NepgearsyHUD_AssaultBar_Survived" : "SOBREVIVEU AO ASSAULT",
 
-	"NepgearsyHUD_AssaultBar_WintersLocked" : "CAPITÃO TRAVOU O ASSAULT",
+	"NepgearsyHUD_AssaultBar_WintersLocked" : "O CAPITÃO BLOQUEOU O TÉRMINO DO ASSAULT",
 	"NepgearsyHUD_AssaultBar_WintersLocked_State" : "DERROTE O CAPITÃO PARA ENCERRAR O ASSAULT",
 	"NepgearsyHUD_AssaultBar_WintersDefeated_State" : "ELE SE FOI! O ASSAULT VAI TERMINAR LOGO",
 
