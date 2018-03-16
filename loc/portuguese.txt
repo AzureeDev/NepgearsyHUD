@@ -36,7 +36,7 @@
 	"NepgearsyHUD_Waifu_Picker_Desc" : "",
 
 	"NepgearsyHUD_EnableHorizontalCrewSetup_Title" : "Ativar Crew Setup Horizontal",
-	"NepgearsyHUD_EnableHorizontalCrewSetup_Desc" : "Marque para exibir o horizontal crew setup.",
+	"NepgearsyHUD_EnableHorizontalCrewSetup_Desc" : "Marque para exibir o loadout na horizontal.",
 
 	"NepgearsyHUD_Starring_Text_Title" : "Você como ... ?",
 	"NepgearsyHUD_Starring_Text_Desc" : "Isto irá alterar o 'como Dallas' para o que você quiser. Sincromiza com outros usuários do mod!",
@@ -57,9 +57,9 @@
 	"NepHUD_Color_red_fushia" : "Vermelho-Magenta",
 
 	"NepgearsyHUD_Waifu_Picker_Choice_Title" : "Waifu Picker",
-	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "Marque um waifu. Vai sincronizar com outros usuários do HUD que tiver este addon.",
-	"NHUD_Waifu_None" : "Nenhum (Desativado)",
-	"NHUD_Waifu_Yourself" : "Você (Avatar do Steam)",
+	"NepgearsyHUD_Waifu_Picker_Choice_Desc" : "Marque um waifu. Vai sincronizar com outros usuários do HUD que tiverem este addon.",
+	"NHUD_Waifu_None" : "Nenhum",
+	"NHUD_Waifu_Yourself" : "Avatar do Steam",
 	"NHUD_Waifu_Neptune" : "Neptune",
 	"NHUD_Waifu_Nepgear" : "Nepgear",
 	"NHUD_Waifu_Noire" : "Noire",
@@ -72,12 +72,12 @@
 	"NHUD_Waifu_Leon" : "Leon Girl",
 
 	"NepgearsyHUD_CompactAssaultStateMode_Title" : "Etapa do Assault",
-	"NepgearsyHUD_CompactAssaultStateMode_Desc" : "O Modo normal irá exibir a etapa do assault sem temporizadores. A versão MysteryDash vai exibir os tempos de cada etapa.",
+	"NepgearsyHUD_CompactAssaultStateMode_Desc" : "O Modo normal irá exibir a etapa do assault sem temporizadores. O modo MysteryDash vai exibir os tempos de cada etapa.",
 	"NepgearsyHUD_CompactAssaultStateMode_Normal" : "Modo Normal",
-	"NepgearsyHUD_CompactAssaultStateMode_MysteryDash" : "Versão MysteryDash",
+	"NepgearsyHUD_CompactAssaultStateMode_MysteryDash" : "Modo MysteryDash",
     
     "NepgearsyHUD_EnableChatMessages_Title" : "Ativar mensagens de chat",
-	"NepgearsyHUD_EnableChatMessages_Desc" : "Ativa mensagens no chat para vários eventos relacionados ao assault. Requer a opção Etapa do Assault setado como MysteryDash.",
+	"NepgearsyHUD_EnableChatMessages_Desc" : "Ativa mensagens no chat para vários eventos relacionados ao assault. Requer a opção Etapa do Assault setada como MysteryDash.",
 
 	"NepgearsyHUD_AssaultBar_FirstAssault" : "PREPARE-SE PARA O PRIMEIRO ASSAULT",
 	"NepgearsyHUD_AssaultBar_FirstAssault_State" : "ELES ESTÃO CHEGANDO",
@@ -90,7 +90,7 @@
 	"NepgearsyHUD_AssaultBar_Endless" : "ASSAULT INFINITO EM PROGRESSO",
 	"NepgearsyHUD_AssaultBar_Survived" : "SOBREVIVEU AO ASSAULT",
 
-	"NepgearsyHUD_AssaultBar_WintersLocked" : "CAPTÃO TRAVOU O ASSAULT",
+	"NepgearsyHUD_AssaultBar_WintersLocked" : "CAPITÃO TRAVOU O ASSAULT",
 	"NepgearsyHUD_AssaultBar_WintersLocked_State" : "DERROTE O CAPITÃO PARA ENCERRAR O ASSAULT",
 	"NepgearsyHUD_AssaultBar_WintersDefeated_State" : "ELE SE FOI! O ASSAULT VAI TERMINAR LOGO",
 
@@ -99,7 +99,7 @@
 	"NepgearsyHUD_AssaultBar_CasingMode" : "MODO ENCOBERTO",
 	"NepgearsyHUD_AssaultBar_CasingMode_Mod" : "PONHA A SUA MASCARA",
 
-	"NepgearsyHUD_AssaultBarThickness_Title" : "Espessura da Assault bar ",
+	"NepgearsyHUD_AssaultBarThickness_Title" : "Altura da Assault bar ",
 	"NepgearsyHUD_AssaultBarThickness_Desc" : "Muda a altura da assault bar.",
 
 	"NepgearsyHUD_Addons_Title" : "Addons",
@@ -108,7 +108,7 @@
 	"NepgearsyHUD_Enable_KWP_Desc" : "Ativa o addon 'Kill Whore Points'.",
 
 	"NepgearsyHUD_EnableTeammatePanel_Title" : "Ativar as mudanças de painel para a equipe",
-	"NepgearsyHUD_EnableTeammatePanel_Desc" : "Marque para ativar as mudanças de painel customizados da equipe .",
+	"NepgearsyHUD_EnableTeammatePanel_Desc" : "Marque para ativar as mudanças de painel customizados da equipe.",
 
 	"hud_instruct_mask_on" : ""
 }
